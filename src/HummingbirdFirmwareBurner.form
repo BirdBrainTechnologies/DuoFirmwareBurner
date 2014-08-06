@@ -40,7 +40,7 @@
           <font size="18"/>
           <foreground awt-color="white"/>
           <selected value="true"/>
-          <text value="Revert to Hummingbird Mode (Regular option)"/>
+          <text value="Revert to Hummingbird Mode (Regular Option)"/>
         </properties>
       </component>
       <component id="87718" class="javax.swing.JRadioButton" binding="uploadCustomFirmwareAdvancedRadioButton" default-binding="true">
