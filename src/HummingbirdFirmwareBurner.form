@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HummingbirdFirmwareBurner">
+  <grid id="27dc6" binding="BurnerWindow" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1502" height="608"/>
+    </constraints>
+    <properties>
+      <background awt-color="darkGray"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="800f6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <foreground awt-color="white"/>
+          <text value="Then, select an option and press the Reset button on your Hummingbird Duo."/>
+        </properties>
+      </component>
+      <component id="cf690" class="javax.swing.JLabel" binding="statusLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <foreground awt-color="red"/>
+          <text value="Status: Not Ready"/>
+        </properties>
+      </component>
+      <component id="74ee2" class="javax.swing.JRadioButton" binding="revertToHummingbirdModeRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background awt-color="lightGray"/>
+          <enabled value="true"/>
+          <font size="18"/>
+          <foreground awt-color="white"/>
+          <selected value="true"/>
+          <text value="Revert to Hummingbird Mode (Regular option)"/>
+        </properties>
+      </component>
+      <component id="87718" class="javax.swing.JRadioButton" binding="uploadCustomFirmwareAdvancedRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <foreground color="-1"/>
+          <text value="Upload Custom Firmware (Advanced Option)"/>
+        </properties>
+      </component>
+      <component id="cfb79" class="javax.swing.JLabel" binding="customLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background awt-color="darkGray"/>
+          <enabled value="true"/>
+          <font size="18"/>
+          <foreground awt-color="white"/>
+          <text value="File not yet selected. Browse for custom firmware:"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f43ea" class="javax.swing.JTextField" binding="filePath">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background awt-color="gray"/>
+          <editable value="false"/>
+          <font size="18"/>
+          <foreground awt-color="white"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <caretAspectRatio class="java.lang.Float" value="0.04"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="29d51" class="javax.swing.JButton" binding="browseButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <enabled value="true"/>
+          <font size="18"/>
+          <hideActionText value="false"/>
+          <icon value="browse.png"/>
+          <rolloverIcon value="browseclicked.png"/>
+          <selectedIcon value="browseclicked.png"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <vspacer id="61db4">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ecf7c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <foreground awt-color="white"/>
+          <text value="Make sure your Hummingbird Duo is connected to your computer via the USB cable. "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="options">
+      <member id="87718"/>
+      <member id="74ee2"/>
+    </group>
+  </buttonGroups>
+</form>
