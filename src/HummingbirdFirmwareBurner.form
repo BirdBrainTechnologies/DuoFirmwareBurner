@@ -15,6 +15,7 @@
           <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background awt-color="darkGray"/>
           <font size="18"/>
           <foreground awt-color="white"/>
           <text value="Then, select an option and press the Reset button on your Hummingbird Duo."/>
@@ -25,6 +26,7 @@
           <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background awt-color="darkGray"/>
           <font size="18" style="1"/>
           <foreground awt-color="red"/>
           <text value="Status: Not Ready"/>
@@ -35,7 +37,7 @@
           <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background awt-color="lightGray"/>
+          <background awt-color="darkGray"/>
           <enabled value="true"/>
           <font size="18"/>
           <foreground awt-color="white"/>
@@ -48,6 +50,7 @@
           <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background awt-color="darkGray"/>
           <font size="18"/>
           <foreground color="-1"/>
           <text value="Upload Custom Firmware (Advanced Option)"/>
@@ -89,6 +92,7 @@
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background awt-color="darkGray"/>
           <borderPainted value="false"/>
           <contentAreaFilled value="false"/>
           <enabled value="true"/>
@@ -111,6 +115,7 @@
           <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background awt-color="darkGray"/>
           <font size="18"/>
           <foreground awt-color="white"/>
           <text value="Make sure your Hummingbird Duo is connected to your computer via the USB cable. "/>
