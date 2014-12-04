@@ -104,7 +104,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                     }
                 }
                 try {
-                    boolean duo = deviceFound((short) 0x2341, (short) 0x8036,UsbHostManager.getUsbServices().getRootUsbHub()); //Arduino Leonardo VID & PID
+                    boolean duo = deviceFound((short) 0x2354, (short) 0x2333,UsbHostManager.getUsbServices().getRootUsbHub()); //Hummingbird in Arduino mode VID & PID
                     boolean hummingbird = deviceFound((short)0x2354,(short) 0x2222,UsbHostManager.getUsbServices().getRootUsbHub()); //Hummingbird VID & PID
                     String[] newPorts;
                     if (duo) { // Arduino Leonardo USB exists
@@ -118,7 +118,11 @@ public class HummingbirdFirmwareBurner extends JFrame{
                     else if(!(Arrays.equals(ports, SerialPortList.getPortNames()))){ //test for different set of serial ports
                         boolean found = false;
                         for(int i = 0;i<5;i++){ //check for bootloader presence a few times since it sometimes takes a second to show up
-                            if(deviceFound((short)0x2341,(short)0x0036,UsbHostManager.getUsbServices().getRootUsbHub())) { //Arduino Leonardo bootloader VID & PID
+                            if(deviceFound((short)0x2341,(short)0x0036,UsbHostManager.getUsbServices().getRootUsbHub())) { //Arduino Leonardo bootloader VID & PID - backwards compatibility with beta units
+                                found = true;
+                                break;
+                            }
+                            else if(deviceFound((short)0x2354,(short)0x2444,UsbHostManager.getUsbServices().getRootUsbHub())) { //Hummingbird Duo bootloader VID & PID
                                 found = true;
                                 break;
                             }
