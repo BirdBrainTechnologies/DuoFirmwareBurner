@@ -26,6 +26,7 @@ import org.apache.commons.io.FileUtils;
 /*
  * Hummingbird Firmware Burner - A simple application to upload Hummingbird or custom firmware to the Hummingbird Duo
  * @author Justin Lee
+ * @author Tom Lauwers
  */
 
 public class HummingbirdFirmwareBurner extends JFrame{
@@ -36,6 +37,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
     private JRadioButton revertToHummingbirdModeRadioButton;
     private JRadioButton uploadCustomFirmwareAdvancedRadioButton;
     private JLabel customLabel;
+    private JRadioButton switchToHummingbirdArduinoRadioButton;
 
     public HummingbirdFirmwareBurner() {
         browseButton.addActionListener(new ActionListener() {
@@ -77,6 +79,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
         };
         uploadCustomFirmwareAdvancedRadioButton.addActionListener(hider);
         revertToHummingbirdModeRadioButton.addActionListener(hider);
+        switchToHummingbirdArduinoRadioButton.addActionListener(hider);
 
         setContentPane(BurnerWindow);
         setTitle("Hummingbird Firmware Burner");
@@ -113,7 +116,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                     }
                     else if(hummingbird){ //Hummingbird USB exists
                         statusLabel.setForeground(Color.GREEN);
-                        statusLabel.setText("Status: Hummingbird Connected");
+                        statusLabel.setText("Status: Hummingbird in Tethered Mode Connected");
                     }
                     else if(!(Arrays.equals(ports, SerialPortList.getPortNames()))){ //test for different set of serial ports
                         boolean found = false;
@@ -144,7 +147,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                                 }
                             }
                             String firmwareFile = "";
-                            if(revertToHummingbirdModeRadioButton.isSelected()) { //default firmware
+                            if(revertToHummingbirdModeRadioButton.isSelected()) { // Hummingbird tethered firmware
                                 try {
                                     URL url = new URL("http://www.hummingbirdkit.com/sites/default/files/HummingbirdV2.hex");
                                     File file = new File("HummingbirdV2.hex");
@@ -155,6 +158,10 @@ public class HummingbirdFirmwareBurner extends JFrame{
                                     firmwareFile = "HummingbirdV2.hex";
                                 }
                             }
+                            else if(switchToHummingbirdArduinoRadioButton.isSelected()) { //Arduino blink firmware
+                                firmwareFile = "BlinkArduino.hex";
+
+                            }
                             else if(uploadCustomFirmwareAdvancedRadioButton.isSelected()) { //custom firmware
                                 firmwareFile = filePath.getText(); //get file browsed for by user
                                 if(!(new File(firmwareFile)).exists())
@@ -163,7 +170,9 @@ public class HummingbirdFirmwareBurner extends JFrame{
                             if(!comport.equals("") && !firmwareFile.equals("")) {
                                 statusLabel.setForeground(Color.GREEN);
                                 if(revertToHummingbirdModeRadioButton.isSelected())
-                                    statusLabel.setText("Status: Reset Detected. Trying to revert to Hummingbird mode.");
+                                    statusLabel.setText("Status: Reset Detected. Trying to switch to tethered mode.");
+                                else if(switchToHummingbirdArduinoRadioButton.isSelected())
+                                    statusLabel.setText("Status: Reset Detected. Trying to switch to Arduino mode.");
                                 else
                                     statusLabel.setText("Status: Reset Detected. Attempting to upload custom firmware.");
                                 Process p;
@@ -200,6 +209,8 @@ public class HummingbirdFirmwareBurner extends JFrame{
                                 }
                                 else if(revertToHummingbirdModeRadioButton.isSelected()) {
                                     JOptionPane.showMessageDialog(null, "Done! The status LED should be slowly fading in and out.");
+                                } else if(switchToHummingbirdArduinoRadioButton.isSelected()) {
+                                    JOptionPane.showMessageDialog(null, "Done! The status LED should now be blinking.");
                                 } else {
                                     JOptionPane.showMessageDialog(null,"Done uploading custom firmware.");
                                 }
