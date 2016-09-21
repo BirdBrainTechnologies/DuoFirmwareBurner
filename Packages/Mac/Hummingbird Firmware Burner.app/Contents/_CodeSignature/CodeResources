@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Java/BlinkArduino.hex</key>
+		<data>
+		A6MfP4WihZzcBSXUllFd+F/PgbY=
+		</data>
+		<key>Resources/Java/HummingbirdBLE.hex</key>
+		<data>
+		lDCuEjJdlnYFER+KGLe+oQzZGFE=
+		</data>
 		<key>Resources/Java/HummingbirdFirmwareBurner.jar</key>
 		<data>
-		f6aYjhhSlfAPEHZctfjqlx8hoy0=
+		zJKnE6rYUQyTpU0tcw9/mu8sTDQ=
 		</data>
 		<key>Resources/Java/HummingbirdV2.hex</key>
 		<data>
@@ -27,26 +35,83 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Resources/Java/BlinkArduino.hex</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A6MfP4WihZzcBSXUllFd+F/PgbY=
+			</data>
+			<key>hash2</key>
+			<data>
+			cJJfJ8gllAfQMj6DBlMKG4seJo4x6K6kHCfmSMuLhwA=
+			</data>
+		</dict>
+		<key>Resources/Java/HummingbirdBLE.hex</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lDCuEjJdlnYFER+KGLe+oQzZGFE=
+			</data>
+			<key>hash2</key>
+			<data>
+			cUmiHeEoxgmUlpfdpXQarWbWL4Z8RHCXHj3cXlk7Rro=
+			</data>
+		</dict>
 		<key>Resources/Java/HummingbirdFirmwareBurner.jar</key>
-		<data>
-		f6aYjhhSlfAPEHZctfjqlx8hoy0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zJKnE6rYUQyTpU0tcw9/mu8sTDQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			BUzj7gljvBbna5ymiFI7nhau8LxxYeY3AhX/rui+Lfk=
+			</data>
+		</dict>
 		<key>Resources/Java/HummingbirdV2.hex</key>
-		<data>
-		JKVoy7vokLn4Jdjvk0iR0Z8d3o4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			JKVoy7vokLn4Jdjvk0iR0Z8d3o4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/iAmnlqkXF2ZiABbRQlg2t+ZpKyxrfT58prusVleLjU=
+			</data>
+		</dict>
 		<key>Resources/Java/avrdude.conf</key>
-		<data>
-		3l4QjI8w71GiWXuCSIYu5S1hVQk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			3l4QjI8w71GiWXuCSIYu5S1hVQk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qm4BdlTQ5/g2N8lv17Ym4FsW+hZgmk95nTJlqEcnijk=
+			</data>
+		</dict>
 		<key>Resources/Java/avrdude_mac</key>
-		<data>
-		yL6W+io9g4rNzgUy1kefa1M44q0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			yL6W+io9g4rNzgUy1kefa1M44q0=
+			</data>
+			<key>hash2</key>
+			<data>
+			q8QbYXuvb1xR/IBV1rligZB6nGjiH2+BnnsxWr8ojp0=
+			</data>
+		</dict>
 		<key>Resources/hummingbird.icns</key>
-		<data>
-		QAU+KDoAFHg8w+GuKwdY99dQXiY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			QAU+KDoAFHg8w+GuKwdY99dQXiY=
+			</data>
+			<key>hash2</key>
+			<data>
+			KyoVSA5zguRJCTCNGgAtWB+Ziev8cRz4tZEkX8ro/tI=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
