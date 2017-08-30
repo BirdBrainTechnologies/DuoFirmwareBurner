@@ -11,10 +11,10 @@
     <ROW Property="ARPURLINFOABOUT" Value="www.hummingbirdkit.com"/>
     <ROW Property="ARPURLUPDATEINFO" Value="www.hummingbirdkit.com"/>
     <ROW Property="Manufacturer" Value="BirdBrain Technologies LLC"/>
-    <ROW Property="ProductCode" Value="1033:{98A34DD7-63F0-4B43-ADCB-953AAFE3BC33} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{A5D811BD-8827-4833-A48D-5E1575606624} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Hummingbird Firmware Burner"/>
-    <ROW Property="ProductVersion" Value="1.2.0.0" Type="32"/>
+    <ROW Property="ProductVersion" Value="1.3.0.0" Type="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{5545C7D0-BB32-4986-A3B4-B8DE85CB84C8}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
