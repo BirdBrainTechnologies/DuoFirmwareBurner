@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Java/HummingbirdBLE.hex</key>
 		<data>
-		lDCuEjJdlnYFER+KGLe+oQzZGFE=
+		kwT2ZIFFurUVGkKjOmlR3my0rdI=
 		</data>
 		<key>Resources/Java/HummingbirdFirmwareBurner.jar</key>
 		<data>
@@ -50,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lDCuEjJdlnYFER+KGLe+oQzZGFE=
+			kwT2ZIFFurUVGkKjOmlR3my0rdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cUmiHeEoxgmUlpfdpXQarWbWL4Z8RHCXHj3cXlk7Rro=
+			KzQwftWZowsITS8GuhQ3so3yD5lzoNfPpKEKjL7BzPI=
 			</data>
 		</dict>
 		<key>Resources/Java/HummingbirdFirmwareBurner.jar</key>
@@ -131,6 +131,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -189,6 +194,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
