@@ -17,6 +17,8 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/libs/libusb4java-1.2.0-linux-x86_64.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libs/libusb4java-1.2.0-windows-x86_64.jar" path-in-jar="/" />
       <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jgoodies-common-1.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jgoodies-forms-1.8.0.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

@@ -1,3 +1,4 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.usb.*;
@@ -8,6 +9,8 @@ import java.awt.event.ActionListener;
 
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowAdapter;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.Arrays;
 
 import java.io.File;
@@ -22,6 +25,7 @@ import jssc.SerialPortList;
 
 import org.apache.commons.lang3.SystemUtils;
 import org.apache.commons.io.FileUtils;
+import com.jgoodies.forms.layout.FormLayout;
 
 /*
  * Hummingbird Firmware Burner - A simple application to upload Hummingbird or custom firmware to the Hummingbird Duo
@@ -39,6 +43,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
     private JLabel customLabel;
     private JRadioButton switchToHummingbirdArduinoRadioButton;
     private JRadioButton switchToBlueToothRadioButton;
+    private JLabel selectPicture;
 
     public HummingbirdFirmwareBurner() {
         browseButton.addActionListener(new ActionListener() {
@@ -70,17 +75,35 @@ public class HummingbirdFirmwareBurner extends JFrame{
                     filePath.setVisible(true);
                     browseButton.setVisible(true);
                     customLabel.setVisible(true);
+                    selectPicture.setVisible(false);
                 }
                 else{
                     filePath.setVisible(false);
                     browseButton.setVisible(false);
                     customLabel.setVisible(false);
+                    selectPicture.setVisible(true);
+                    if(revertToHummingbirdModeRadioButton.isSelected())
+                    {
+                        ImageIcon new_image = new ImageIcon(getClass().getResource("/USB_BLE_MIcrobit.png"));
+                        selectPicture.setIcon(new_image);
+                    }
+                    else if(switchToHummingbirdArduinoRadioButton.isSelected())
+                    {
+                        ImageIcon new_image = new ImageIcon(getClass().getResource("/arduino_at_heart2.png"));
+                        selectPicture.setIcon(new_image);
+                    }
+                    else if(switchToBlueToothRadioButton.isSelected())
+                    {
+                        ImageIcon new_image = new ImageIcon(getClass().getResource("/BLE1.png"));
+                        selectPicture.setIcon(new_image);
+                    }
                 }
             }
         };
         uploadCustomFirmwareAdvancedRadioButton.addActionListener(hider);
         revertToHummingbirdModeRadioButton.addActionListener(hider);
         switchToHummingbirdArduinoRadioButton.addActionListener(hider);
+        switchToBlueToothRadioButton.addActionListener(hider);
 
         setContentPane(BurnerWindow);
         setTitle("Hummingbird Firmware Burner");
@@ -93,6 +116,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
 
     class DuoChecker extends Thread {
         private String[] ports = SerialPortList.getPortNames();
+        BufferedImage image=null;
 
         public void run(){
             while(true) {
@@ -106,6 +130,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                     else{ //File does not exist or is not a .hex file
                         customLabel.setText("Invalid file selected. Browse for custom firmware:");
                     }
+
                 }
                 try {
                     boolean duo = deviceFound((short) 0x2354, (short) 0x2333,UsbHostManager.getUsbServices().getRootUsbHub()); //Hummingbird in Arduino mode VID & PID
@@ -149,19 +174,18 @@ public class HummingbirdFirmwareBurner extends JFrame{
                             }
                             String firmwareFile = "";
                             if(revertToHummingbirdModeRadioButton.isSelected()) { // Hummingbird tethered firmware
-                                try {
-                                    URL url = new URL("http://www.hummingbirdkit.com/sites/default/files/HummingbirdV2.hex");
-                                    File file = new File("HummingbirdV2.hex");
-                                    FileUtils.copyURLToFile(url,file,2000,2000);
-                                    firmwareFile = file.getPath();
-                                }catch(Exception e){
-                                    System.err.println("Error downloading Hummingbird firmware. Trying offline version.");
+                            //    try {
+                            //        URL url = new URL("http://www.hummingbirdkit.com/sites/default/files/HummingbirdV2.hex");
+                            //        File file = new File("HummingbirdV2.hex");
+                            //        FileUtils.copyURLToFile(url,file,2000,2000);
+                            //        firmwareFile = file.getPath();
+                            //    }catch(Exception e){
+                            //       System.err.println("Error downloading Hummingbird firmware. Trying offline version.");
                                     firmwareFile = "HummingbirdV2.hex";
-                                }
+                            //    }
                             }
                             else if(switchToHummingbirdArduinoRadioButton.isSelected()) { //Arduino blink firmware
                                 firmwareFile = "BlinkArduino.hex";
-
                             }
                             else if(switchToBlueToothRadioButton.isSelected()) { //Bluetooth-ready firmware
                                 firmwareFile = "HummingbirdBLE.hex";
