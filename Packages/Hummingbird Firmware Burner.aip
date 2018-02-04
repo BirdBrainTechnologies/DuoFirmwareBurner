@@ -5,16 +5,16 @@
     <ROW Property="ALLUSERS" Value="1" MultiBuildValue="DefaultBuild:2"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="ARPCONTACT" Value="Tom Lauwers"/>
-    <ROW Property="ARPHELPLINK" Value="www.hummingbirdkit.com"/>
+    <ROW Property="ARPHELPLINK" Value="www.birdbraintechnologies.com"/>
     <ROW Property="ARPHELPTELEPHONE" Value="888-371-6161"/>
-    <ROW Property="ARPPRODUCTICON" Value="hblogosquareInverse_1.exe" Type="8"/>
-    <ROW Property="ARPURLINFOABOUT" Value="www.hummingbirdkit.com"/>
-    <ROW Property="ARPURLUPDATEINFO" Value="www.hummingbirdkit.com"/>
+    <ROW Property="ARPPRODUCTICON" Value="hblogosquareInverse.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="www.birdbraintechnologies.com"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="www.birdbraintechnologies.com"/>
     <ROW Property="Manufacturer" Value="BirdBrain Technologies LLC"/>
-    <ROW Property="ProductCode" Value="1033:{A5D811BD-8827-4833-A48D-5E1575606624} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{79C62A8E-DC84-4DD2-84B3-83E2798594F7} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Hummingbird Firmware Burner"/>
-    <ROW Property="ProductVersion" Value="1.3.0.0" Type="32"/>
+    <ROW Property="ProductVersion" Value="1.4.0.0" Type="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{5545C7D0-BB32-4986-A3B4-B8DE85CB84C8}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
@@ -48,11 +48,11 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
     <ROW File="BlinkArduino.hex" Component_="avrdude.conf" FileName="BLINKA~1.HEX|BlinkArduino.hex" Attributes="0" SourcePath="Windows\libs\BlinkArduino.hex" SelfReg="false" NextFile="HummingbirdBLE.hex"/>
-    <ROW File="HummingbirdBLE.hex" Component_="avrdude.conf" FileName="HUMMIN~2.HEX|HummingbirdBLE.hex" Attributes="0" SourcePath="Windows\libs\HummingbirdBLE.hex" SelfReg="false"/>
+    <ROW File="HummingbirdBLE.hex" Component_="avrdude.conf" FileName="HUMMIN~2.HEX|HummingbirdBLE.hex" Attributes="0" SourcePath="Windows\libs\HummingbirdBLE.hex" SelfReg="false" NextFile="hummingbirdforble_v_2_3.hex"/>
     <ROW File="HummingbirdFirmwareBurner.exe" Component_="HummingbirdFirmwareBurner.exe" FileName="HUMMIN~1.EXE|HummingbirdFirmwareBurner.exe" Attributes="0" SourcePath="Windows\HummingbirdFirmwareBurner.exe" SelfReg="false" NextFile="avrdude.conf" DigSign="true"/>
-    <ROW File="HummingbirdV2.hex" Component_="avrdude.conf" FileName="HUMMIN~1.HEX|HummingbirdV2.hex" Attributes="0" SourcePath="Windows\libs\HummingbirdV2.hex" SelfReg="false" NextFile="libusb0.dll"/>
     <ROW File="avrdude.conf" Component_="avrdude.conf" FileName="AVRDUD~1.CON|avrdude.conf" Attributes="0" SourcePath="Windows\libs\avrdude.conf" SelfReg="false" NextFile="avrdude.exe"/>
-    <ROW File="avrdude.exe" Component_="avrdude.exe" FileName="avrdude.exe" Attributes="0" SourcePath="Windows\libs\avrdude.exe" SelfReg="false" NextFile="HummingbirdV2.hex" DigSign="true"/>
+    <ROW File="avrdude.exe" Component_="avrdude.exe" FileName="avrdude.exe" Attributes="0" SourcePath="Windows\libs\avrdude.exe" SelfReg="false" NextFile="libusb0.dll" DigSign="true"/>
+    <ROW File="hummingbirdforble_v_2_3.hex" Component_="avrdude.conf" FileName="HUMMIN~1.HEX|hummingbirdforble_v_2_3.hex" Attributes="0" SourcePath="Windows\libs\hummingbirdforble_v_2_3.hex" SelfReg="false"/>
     <ROW File="libusb0.dll" Component_="libusb0.dll" FileName="libusb0.dll" Attributes="0" SourcePath="Windows\libs\libusb0.dll" SelfReg="false" NextFile="libusb0.sys"/>
     <ROW File="libusb0.sys" Component_="avrdude.conf" FileName="libusb0.sys" Attributes="0" SourcePath="Windows\libs\libusb0.sys" SelfReg="false" NextFile="BlinkArduino.hex"/>
   </COMPONENT>
@@ -123,7 +123,7 @@
     <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
-    <ROW Name="hblogosquareInverse_1.exe" SourcePath="..\..\..\..\Dropbox\LogoFiles\Hummingbird\hblogosquareInverse.ico" Index="0"/>
+    <ROW Name="hblogosquareInverse.exe" SourcePath="..\..\..\..\Dropbox (BirdBrain Tech)\LogoFiles\Hummingbird\hblogosquareInverse.ico" Index="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
     <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>

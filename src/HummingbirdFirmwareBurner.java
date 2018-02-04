@@ -44,6 +44,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
     private JRadioButton switchToHummingbirdArduinoRadioButton;
     private JRadioButton switchToBlueToothRadioButton;
     private JLabel selectPicture;
+    private JRadioButton hummingbirdFirmwareForUSBRadioButton;
 
     public HummingbirdFirmwareBurner() {
         browseButton.addActionListener(new ActionListener() {
@@ -84,7 +85,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                     selectPicture.setVisible(true);
                     if(revertToHummingbirdModeRadioButton.isSelected())
                     {
-                        ImageIcon new_image = new ImageIcon(getClass().getResource("/USB_BLE_MIcrobit.png"));
+                        ImageIcon new_image = new ImageIcon(getClass().getResource("/uBit_BLE.png"));
                         selectPicture.setIcon(new_image);
                     }
                     else if(switchToHummingbirdArduinoRadioButton.isSelected())
@@ -97,6 +98,11 @@ public class HummingbirdFirmwareBurner extends JFrame{
                         ImageIcon new_image = new ImageIcon(getClass().getResource("/BLE1.png"));
                         selectPicture.setIcon(new_image);
                     }
+                    else if(hummingbirdFirmwareForUSBRadioButton.isSelected())
+                    {
+                        ImageIcon new_image = new ImageIcon(getClass().getResource("/USB.png"));
+                        selectPicture.setIcon(new_image);
+                    }
                 }
             }
         };
@@ -104,6 +110,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
         revertToHummingbirdModeRadioButton.addActionListener(hider);
         switchToHummingbirdArduinoRadioButton.addActionListener(hider);
         switchToBlueToothRadioButton.addActionListener(hider);
+        hummingbirdFirmwareForUSBRadioButton.addActionListener(hider);
 
         setContentPane(BurnerWindow);
         setTitle("Hummingbird Firmware Burner");
@@ -173,7 +180,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                                 }
                             }
                             String firmwareFile = "";
-                            if(revertToHummingbirdModeRadioButton.isSelected()) { // Hummingbird tethered firmware
+                            if(revertToHummingbirdModeRadioButton.isSelected() || hummingbirdFirmwareForUSBRadioButton.isSelected()) { // Hummingbird tethered firmware
                             //    try {
                             //        URL url = new URL("http://www.hummingbirdkit.com/sites/default/files/HummingbirdV2.hex");
                             //        File file = new File("HummingbirdV2.hex");
@@ -181,7 +188,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                             //        firmwareFile = file.getPath();
                             //    }catch(Exception e){
                             //       System.err.println("Error downloading Hummingbird firmware. Trying offline version.");
-                                    firmwareFile = "HummingbirdV2.hex";
+                                    firmwareFile = "hummingbirdforble_v_2_3.hex";
                             //    }
                             }
                             else if(switchToHummingbirdArduinoRadioButton.isSelected()) { //Arduino blink firmware
@@ -198,11 +205,11 @@ public class HummingbirdFirmwareBurner extends JFrame{
                             }
                             if(!comport.equals("") && !firmwareFile.equals("")) {
                                 statusLabel.setForeground(Color.GREEN);
-                                if(revertToHummingbirdModeRadioButton.isSelected())
+                                if(hummingbirdFirmwareForUSBRadioButton.isSelected())
                                     statusLabel.setText("Status: Reset Detected. Trying to switch to tethered mode.");
                                 else if(switchToHummingbirdArduinoRadioButton.isSelected())
                                     statusLabel.setText("Status: Reset Detected. Trying to switch to Arduino mode.");
-                                else if(switchToBlueToothRadioButton.isSelected())
+                                else if(switchToBlueToothRadioButton.isSelected() || revertToHummingbirdModeRadioButton.isSelected())
                                     statusLabel.setText("Status: Reset Detected. Trying to switch to Bluetooth-ready mode.");
                                 else
                                     statusLabel.setText("Status: Reset Detected. Attempting to upload custom firmware.");
