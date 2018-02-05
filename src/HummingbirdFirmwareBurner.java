@@ -245,7 +245,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
                                     System.err.println(error);
                                     JOptionPane.showMessageDialog(null,"Error uploading firmware. Please try again."+error);
                                 }
-                                else if(revertToHummingbirdModeRadioButton.isSelected() || switchToBlueToothRadioButton.isSelected()) {
+                                else if(revertToHummingbirdModeRadioButton.isSelected() || switchToBlueToothRadioButton.isSelected() || hummingbirdFirmwareForUSBRadioButton.isSelected()) {
                                     JOptionPane.showMessageDialog(null, "Done! The status LED should be slowly fading in and out.");
                                 } else if(switchToHummingbirdArduinoRadioButton.isSelected()) {
                                     JOptionPane.showMessageDialog(null, "Done! The status LED should now be blinking.");
