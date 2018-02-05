@@ -14,11 +14,7 @@
 		</data>
 		<key>Resources/Java/HummingbirdFirmwareBurner.jar</key>
 		<data>
-		zJKnE6rYUQyTpU0tcw9/mu8sTDQ=
-		</data>
-		<key>Resources/Java/HummingbirdV2.hex</key>
-		<data>
-		JKVoy7vokLn4Jdjvk0iR0Z8d3o4=
+		PDIf59fGtDFIFFqCxAvQqItuBF0=
 		</data>
 		<key>Resources/Java/avrdude.conf</key>
 		<data>
@@ -27,6 +23,10 @@
 		<key>Resources/Java/avrdude_mac</key>
 		<data>
 		yL6W+io9g4rNzgUy1kefa1M44q0=
+		</data>
+		<key>Resources/Java/hummingbirdforble_v_2_3.hex</key>
+		<data>
+		VE0GsjmwfzWPCf+PbA5ttrBj9x8=
 		</data>
 		<key>Resources/hummingbird.icns</key>
 		<data>
@@ -61,22 +61,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zJKnE6rYUQyTpU0tcw9/mu8sTDQ=
+			PDIf59fGtDFIFFqCxAvQqItuBF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BUzj7gljvBbna5ymiFI7nhau8LxxYeY3AhX/rui+Lfk=
-			</data>
-		</dict>
-		<key>Resources/Java/HummingbirdV2.hex</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JKVoy7vokLn4Jdjvk0iR0Z8d3o4=
-			</data>
-			<key>hash2</key>
-			<data>
-			/iAmnlqkXF2ZiABbRQlg2t+ZpKyxrfT58prusVleLjU=
+			39dhpmaLhvwct5I9kwNMrArWvt+ofl+FuVe5jxoe9Wk=
 			</data>
 		</dict>
 		<key>Resources/Java/avrdude.conf</key>
@@ -99,6 +88,17 @@
 			<key>hash2</key>
 			<data>
 			q8QbYXuvb1xR/IBV1rligZB6nGjiH2+BnnsxWr8ojp0=
+			</data>
+		</dict>
+		<key>Resources/Java/hummingbirdforble_v_2_3.hex</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VE0GsjmwfzWPCf+PbA5ttrBj9x8=
+			</data>
+			<key>hash2</key>
+			<data>
+			WuBOovPs75HE1YF3WWBo6tmI81s6hbCL1l9b6gcRnUE=
 			</data>
 		</dict>
 		<key>Resources/hummingbird.icns</key>
