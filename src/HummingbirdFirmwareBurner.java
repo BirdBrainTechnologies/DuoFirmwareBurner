@@ -47,6 +47,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
     private JRadioButton hummingbirdFirmwareForUSBRadioButton;
 
     public HummingbirdFirmwareBurner() {
+
         browseButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -294,5 +295,7 @@ public class HummingbirdFirmwareBurner extends JFrame{
         //JOptionPane.showMessageDialog(null,System.getProperty("user.dir"));
         //open JFrame
         HummingbirdFirmwareBurner frame = new HummingbirdFirmwareBurner();
+
+
     }
 }

@@ -14,22 +14,26 @@
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
   <icon>C:\Users\Tom\Dropbox (BirdBrain Tech)\LogoFiles\Hummingbird\hblogosquareInverse.ico</icon>
+  <singleInstance>
+    <mutexName>HBFWBRN</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
   <jre>
     <path></path>
     <bundledJre64Bit>false</bundledJre64Bit>
     <bundledJreAsFallback>false</bundledJreAsFallback>
     <minVersion>1.6.0</minVersion>
     <maxVersion></maxVersion>
-    <jdkPreference>preferJre</jdkPreference>
+    <jdkPreference>jreOnly</jdkPreference>
     <runtimeBits>64/32</runtimeBits>
   </jre>
   <versionInfo>
-    <fileVersion>1.4.0.0</fileVersion>
-    <txtFileVersion>1.4.0</txtFileVersion>
+    <fileVersion>1.5.0.0</fileVersion>
+    <txtFileVersion>1.5.0</txtFileVersion>
     <fileDescription>Hummingbird Firmware Burner</fileDescription>
     <copyright>BirdBrain Technologies LLC</copyright>
-    <productVersion>1.4.0.0</productVersion>
-    <txtProductVersion>1.4.0</txtProductVersion>
+    <productVersion>1.5.0.0</productVersion>
+    <txtProductVersion>1.5.0</txtProductVersion>
     <productName>Hummingbird Firmware Burner</productName>
     <companyName>BirdBrain Technologies LLC</companyName>
     <internalName>Hummingbird Firmware Burner</internalName>
