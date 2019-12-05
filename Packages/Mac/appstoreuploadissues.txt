@@ -1,0 +1,7 @@
+ERROR ITMS-90236: "Missing required icon. The application bundle does not contain an icon in ICNS format, containing both a 512x512 and a 512x512@2x image. For further assistance, see the Apple Human Interface Guidelines at https://developer.apple.com/macos/human-interface-guidelines/icons-and-images/app-icon"
+
+ERROR ITMS-90237: "The product archive package's signature is invalid. Ensure that it is signed with your "3rd Party Mac Developer Installer" certificate."
+
+ERROR ITMS-90249: "The product archive is invalid. The value of the LSApplicationCategoryType key in the Info.plist is Unknown, which is not a UTI for a valid category. For more details, see "Submitting your Mac apps to the App Store"."
+
+ERROR ITMS-90296: "App sandbox not enabled. The following executables must include the "com.apple.security.app-sandbox" entitlement with a Boolean value of true in the entitlements property list: [( "com.birdbraintechnologies.HummingbirdFirmwareBurner.pkg/Payload/Hummingbird Firmware Burner.app/Contents/Java/avrdude_mac", "com.birdbraintechnologies.HummingbirdFirmwareBurner.pkg/Payload/Hummingbird Firmware Burner.app/Contents/MacOS/Hummingbird Firmware Burner", "com.birdbraintechnologies.HummingbirdFirmwareBurner.pkg/Payload/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/jspawnhelper" )] Refer to App Sandbox page at https://developer.apple.com/devcenter/mac/app-sandbox/ for more information on sandboxing your app."
