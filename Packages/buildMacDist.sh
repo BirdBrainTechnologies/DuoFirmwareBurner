@@ -10,6 +10,7 @@ echo "Removing any old products..."
 # Remove old products
 rm -rfv Mac/supportFiles/Hummingbird\ Firmware\ Burner.app
 rm -fv Mac/HummingbirdFirmwareBurner.dmg
+rm -fv Mac/HummingbirdFirmwareBurner.pkg
 
 echo
 echo "**** Making the .app ****"
@@ -37,8 +38,8 @@ echo "**** Making the .pkg ****"
 # Make a .pkg for app store distribution (using the 'Transporter' developer tool)
 # Requires a 'Developer ID Installer' for signing. Then you can use productsign or the --sign
 # flag in productbuild
-productbuild --component Mac/supportFiles/BirdBrainRobotServer.app /Applications Mac/HummingbirdFirmwareBurnerTmp.pkg
-productsign --sign "Developer ID Installer: Tom Lauwers" Mac/HummingbirdFirmwareBurnerTmp.pkg Mac/HummingbirdFirmwareBurner.pkg 
+productbuild --component Mac/supportFiles/Hummingbird\ Firmware\ Burner.app /Applications Mac/HummingbirdFirmwareBurnerTmp.pkg
+productsign --sign "3rd Party Mac Developer Installer: Tom Lauwers" Mac/HummingbirdFirmwareBurnerTmp.pkg Mac/HummingbirdFirmwareBurner.pkg 
 rm -fv Mac/HummingbirdFirmwareBurnerTmp.pkg
 
 echo

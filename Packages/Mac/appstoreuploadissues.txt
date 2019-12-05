@@ -1,6 +1,4 @@
-ERROR ITMS-90236: "Missing required icon. The application bundle does not contain an icon in ICNS format, containing both a 512x512 and a 512x512@2x image. For further assistance, see the Apple Human Interface Guidelines at https://developer.apple.com/macos/human-interface-guidelines/icons-and-images/app-icon"
 
-ERROR ITMS-90237: "The product archive package's signature is invalid. Ensure that it is signed with your "3rd Party Mac Developer Installer" certificate."
 
 ERROR ITMS-90249: "The product archive is invalid. The value of the LSApplicationCategoryType key in the Info.plist is Unknown, which is not a UTI for a valid category. For more details, see "Submitting your Mac apps to the App Store"."
 
