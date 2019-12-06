@@ -21,9 +21,15 @@ javapackager -deploy -native image -name "Hummingbird Firmware Burner" -Bicon=Ma
 # Copy extra files needed (that cannot be included automatically because of a bug in javapackager
 /bin/cp  -R  Mac/appFiles/*  Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/Contents/Java/.
 /bin/cp  -R  sharedResources/*  Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/Contents/Java/.
+/bin/cp Mac/supportFiles/Info.plist Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/Contents/.
 
 # Sign the app again because of the changes
-codesign -f -s "Developer ID Application: Tom Lauwers" Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/
+# Check syntax of the entitlements file with 'plutil entitlements.plist'
+codesign -f -s "Developer ID Application: Tom Lauwers" --entitlements Mac/supportFiles/entitlements.plist Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/Contents/Java/avrdude_mac
+codesign -f -s "Developer ID Application: Tom Lauwers" --entitlements Mac/supportFiles/entitlements.plist Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/jspawnhelper
+codesign -f -s "Developer ID Application: Tom Lauwers" --entitlements Mac/supportFiles/entitlements.plist Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/Contents/PlugIns/Java.runtime
+codesign -f -s "Developer ID Application: Tom Lauwers" --entitlements Mac/supportFiles/entitlements.plist Mac/supportFiles/Hummingbird\ Firmware\ Burner.app/
+
 
 echo
 echo "**** Making the .dmg ****"
@@ -49,4 +55,4 @@ spctl -a -t exec -vv Mac/supportFiles/Hummingbird\ Firmware\ Burner.app
 echo "... for the .dmg"
 spctl -a -t install -vv Mac/HummingbirdFirmwareBurner.dmg
 echo "... for the .pkg"
-spctl -a -t install -vv Mac/HummingbirdFirmwareBurner.pkg
+pkgutil --check-signature Mac/HummingbirdFirmwareBurner.pkg
