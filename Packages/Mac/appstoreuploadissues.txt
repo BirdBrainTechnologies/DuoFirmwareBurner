@@ -1,5 +1,461 @@
 
 
-ERROR ITMS-90249: "The product archive is invalid. The value of the LSApplicationCategoryType key in the Info.plist is Unknown, which is not a UTI for a valid category. For more details, see "Submitting your Mac apps to the App Store"."
 
-ERROR ITMS-90296: "App sandbox not enabled. The following executables must include the "com.apple.security.app-sandbox" entitlement with a Boolean value of true in the entitlements property list: [( "com.birdbraintechnologies.HummingbirdFirmwareBurner.pkg/Payload/Hummingbird Firmware Burner.app/Contents/Java/avrdude_mac", "com.birdbraintechnologies.HummingbirdFirmwareBurner.pkg/Payload/Hummingbird Firmware Burner.app/Contents/MacOS/Hummingbird Firmware Burner", "com.birdbraintechnologies.HummingbirdFirmwareBurner.pkg/Payload/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/jspawnhelper" )] Refer to App Sandbox page at https://developer.apple.com/devcenter/mac/app-sandbox/ for more information on sandboxing your app."
+Delivery log:
+
+[2019-12-09 09:45:23 EST] <main>  INFO: Configuring logging...
+[2019-12-09 09:45:23 EST] <main>  INFO: Logging level set to eXtreme
+[2019-12-09 09:45:23 EST] <main>  INFO: Transporter is searching for new software components.
+[2019-12-09 09:45:23 EST] <main>  INFO: INFO: using cached repository.xml file.
+[2019-12-09 09:45:23 EST] <main>  INFO: Update check complete.
+[2019-12-09 09:45:25 EST] <main> DEBUG: Attempting refresh of configuration data from https://contentdelivery.itunes.apple.com/transporter/Defaults.properties
+[2019-12-09 09:45:25 EST] <main> DEBUG: Configuration refresh successful.
+[2019-12-09 09:45:25 EST] <main> DEBUG: Saving configuration to local path: /Users/krissie/Library/Caches/com.apple.amp.itmstransporter/Defaults.properties
+[2019-12-09 09:45:25 EST] <main>  INFO: iTMSTransporter : iTunes Store Transporter [2.0.0]
+[2019-12-09 09:45:25 EST] <main>  INFO: OS identifier: Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:45:25 EST] <main>  INFO: Memory: [JVM] 1022M free, 1112M total, 1820M max [System] (Physical) 77M free, 8192M total (Swap) 1404M free, 4096M total
+[2019-12-09 09:45:25 EST] <main>  INFO: Client: TransporterApp 1.1 (1165)
+[2019-12-09 09:45:25 EST] <main>  INFO: Upload mode selected.
+[2019-12-09 09:45:25 EST] <main> DBG-X: Memory: [JVM] 1012M free, 1112M total, 1820M max [System] (Physical) 77M free, 8192M total (Swap) 1404M free, 4096M total
+[2019-12-09 09:45:25 EST] <main> DBG-X: Using operation named: authenticateForTransportDiscovery
+[2019-12-09 09:45:25 EST] <main> DBG-X: Apple's web service operation input parameters:
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter BaseVersion = 1.13.0
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter Client = TransporterApp
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter ClientVersion = 1.1 (1165)
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter ItcProviderName = N6XC9HC8PB
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2019-12-09T09:45:25-05:00
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 0.146597432
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter TransporterArguments = -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter Version = 2.0.0
+[2019-12-09 09:45:25 EST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2019-12-09 09:45:25 EST] <main>  INFO: id = 20191209094525-356
+[2019-12-09 09:45:25 EST] <main>  INFO: iTMSTransporter Correlation Key: 07d8aef7-5ae6-461d-8952-8dac6c9256be-0001
+[2019-12-09 09:45:26 EST] <main> DBG-X: Apple's web service operation return value:
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter EnableJWTForAllCalls = false
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter PreferredTransports = [Signiant, Aspera, DAV, HTTP]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter TransportHosts.Signiant = [sgr601.apple.com:44001]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter SessionExpiration = 2019-12-13T14:45:26.519Z
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter TransportHosts.DAV = [itmsdav.apple.com:443]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter TransportHosts.Aspera = [vgr503.apple.com:33001, vgr504.apple.com:33001, vgr501.apple.com:33001, vgr502.apple.com:33001]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter StreamingSettings = {LogStreamingEnabled=true, MultipartUploadsEnabled=true, AssetDescriptionStreamingEnabled=false}
+[2019-12-09 09:45:26 EST] <main>  INFO: Transporter's command line arguments are: -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:45:26 EST] <main>  INFO: Examining the package at: /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp
+[2019-12-09 09:45:26 EST] <main>  INFO: Ensuring that package has well formed metadata file...
+[2019-12-09 09:45:26 EST] <main> DEBUG: Getting case-sensitive metadata xml filename...
+[2019-12-09 09:45:26 EST] <main>  INFO: Gathering the list of valid files from the package ...
+[2019-12-09 09:45:26 EST] <main> DEBUG:   metadata.xml will be verified by Apple's web service to determine if it is a valid file.
+[2019-12-09 09:45:26 EST] <main> DEBUG:   HummingbirdFirmwareBurner.pkg will be verified by Apple's web service to determine if it is a valid file.
+[2019-12-09 09:45:26 EST] <main>  INFO: Finished gathering the list of valid files from the package.
+[2019-12-09 09:45:26 EST] <main> DEBUG:   Case-sensitive metadata filename is: metadata.xml
+[2019-12-09 09:45:26 EST] <main>  INFO: JSON:{"msg":{"phase":"Upload","description":"Analyzing metadata","index":0},"messageType":"VerifyProgress"}
+[2019-12-09 09:45:26 EST] <main>  INFO: Performing authentication of package 1490461270.itmsp ...
+[2019-12-09 09:45:26 EST] <main> DBG-X: Memory: [JVM] 1075M free, 1131M total, 1820M max [System] (Physical) 68M free, 8192M total (Swap) 1404M free, 4096M total
+[2019-12-09 09:45:26 EST] <main>  INFO: JSON:{"msg":{"phase":"Upload","count":2,"description":"Analyzing metadata","index":1},"messageType":"VerifyProgress"}
+[2019-12-09 09:45:26 EST] <main> DBG-X: Deflated 663 bytes to 488
+[2019-12-09 09:45:26 EST] <main> DBG-X: Using operation named: validateMetadata
+[2019-12-09 09:45:26 EST] <main> DBG-X: Apple's web service operation input parameters:
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter BaseVersion = 1.13.0
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Client = TransporterApp
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter ClientVersion = 1.1 (1165)
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Files = [metadata.xml, HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter ItcProviderName = N6XC9HC8PB
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Metadata = <?xml version="1.0" encoding="UTF-8"?>
+<package version="software5.4" xmlns="http://apple.com/itunes/importer">
+    <software_assets apple_id="1490461270"
+        bundle_short_version_string="1.5.1"
+        bundle_version="1.5"
+        bundle_identifier="com.birdbraintechnologies.HummingbirdFirmwareBurner"
+        app_platform="osx">
+        <asset type="product-archive">
+            <data_file>
+                <file_name>HummingbirdFirmwareBurner.pkg</file_name>
+                <checksum type="md5">e442b458d46e605185a1b3172482c0d3</checksum>
+                <size>69043132</size>
+            </data_file>
+        </asset>
+    </software_assets>
+</package>
+
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter MetadataChecksum = 97a3abdd55cfac4807188cf2931801af
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter MetadataCompressed = (suppressed)
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter MetadataInfo = {app_platform=osx, primary_bundle_identifier=, device_id=, bundle_identifier=com.birdbraintechnologies.HummingbirdFirmwareBurner, packageVersion=software5.4, apple_id=1490461270, asset_types=[product-archive], bundle_version=1.5, bundle_short_version_string=1.5.1}
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter PackageName = 1490461270.itmsp
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter PackageSize = 69043795
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2019-12-09T09:45:26-05:00
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter TransporterArguments = -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Version = 2.0.0
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2019-12-09 09:45:26 EST] <main>  INFO: id = 20191209094526-238
+[2019-12-09 09:45:26 EST] <main>  INFO: iTMSTransporter Correlation Key: 07d8aef7-5ae6-461d-8952-8dac6c9256be-0001
+[2019-12-09 09:45:26 EST] <main> DBG-X: Apple's web service operation return value:
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter EnableJWTForAllCalls = false
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter SessionExpiration = 2019-12-13T14:45:26.775Z
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter MinimumFileSizeThresholdForCheckum = 104857600
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter SoftwareMediaDescriptionFormat = binary
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter SoftwareMediaDescriptionThresholds = {in-app-purchase-content={extensions=[pkg], size=100000000}, ccats={extensions=[pdf], size=100000000}, product-archive={extensions=[pkg], size=100000000}, developer-id-package={extensions=[zip, pkg, dmg], size=100000000}, bundle={extensions=[zip, ipa], size=100000000}, large-icon={extensions=[jpg, png, jpeg], size=100000000}}
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Success = true
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter StreamingSettings = {LogStreamingEnabled=true, MultipartUploadsEnabled=true, AssetDescriptionStreamingEnabled=false}
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter FilesToUpload = [metadata.xml, HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter AssetsToDescribe = [{Role=source, Filename=HummingbirdFirmwareBurner.pkg, ShouldDescribeAsset=true, UTI=com.apple.pkg}]
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter CPUToken = b02d47f1-007c-43dc-9f68-4df337a382e7/1575902727116
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter Checksums = {HummingbirdFirmwareBurner.pkg=e442b458d46e605185a1b3172482c0d3}
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter FileSizes = {HummingbirdFirmwareBurner.pkg=69043132}
+[2019-12-09 09:45:26 EST] <main> DBG-X:   parameter ProviderNameForToken = N6XC9HC8PB
+[2019-12-09 09:45:26 EST] <main>  INFO: The list of files requested for upload by Apple is: [metadata.xml, HummingbirdFirmwareBurner.pkg].  These are the files that will be uploaded.
+[2019-12-09 09:45:26 EST] <main>  INFO: Starting media analysis of assets
+[2019-12-09 09:45:26 EST] <main> DEBUG: Handling asset: filename=HummingbirdFirmwareBurner.pkg,uti=com.apple.pkg,role=source,describe=true
+[2019-12-09 09:45:26 EST] <main>  INFO: JSON:{"msg":{"phase":"Upload","count":3,"description":"Adding asset to analyze:","index":2,"asset":"HummingbirdFirmwareBurner.pkg"},"messageType":"VerifyProgress"}
+[2019-12-09 09:45:26 EST] <main> DEBUG: Using container type tool name and version: Mac App Describer:1.26
+[2019-12-09 09:45:26 EST] <main> DEBUG: Using path: /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp/HummingbirdFirmwareBurner.pkg
+[2019-12-09 09:45:40 EST] <main> DBG-X: description length:0
+[2019-12-09 09:45:40 EST] <main> DBG-X: Asset description: 
+[2019-12-09 09:45:40 EST] <main> DEBUG: Asset successfully described: com.apple.jingle.leghorn.software.AbstractSoftwareDescriber$1@6a0094c9
+[2019-12-09 09:45:40 EST] <main> DBG-X: Deflated 551 bytes to 351
+[2019-12-09 09:45:40 EST] <main>  INFO: Asset media analysis has completed
+[2019-12-09 09:45:40 EST] <main> DBG-X: Memory: [JVM] 1042M free, 1131M total, 1820M max [System] (Physical) 343M free, 8192M total (Swap) 1404M free, 4096M total
+[2019-12-09 09:45:40 EST] <main> DBG-X: Using operation named: lookupTransportDiagnostic
+[2019-12-09 09:45:40 EST] <main> DBG-X: Apple's web service operation input parameters:
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter BaseVersion = 1.13.0
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter Client = TransporterApp
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter ClientVersion = 1.1 (1165)
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter ItcProviderName = N6XC9HC8PB
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2019-12-09T09:45:40-05:00
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter TransporterArguments = -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter Version = 2.0.0
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2019-12-09 09:45:40 EST] <main>  INFO: id = 20191209094540-076
+[2019-12-09 09:45:40 EST] <main>  INFO: iTMSTransporter Correlation Key: 07d8aef7-5ae6-461d-8952-8dac6c9256be-0001
+[2019-12-09 09:45:40 EST] <main> DBG-X: Apple's web service operation return value:
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter AsperaLoggingLevel = OFF
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter EnableJWTForAllCalls = false
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter SigniantLoggingLevel = OFF
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter SessionExpiration = 2019-12-13T14:45:41.121Z
+[2019-12-09 09:45:40 EST] <main> DBG-X:   parameter StreamingSettings = {LogStreamingEnabled=true, MultipartUploadsEnabled=true, AssetDescriptionStreamingEnabled=false}
+[2019-12-09 09:45:41 EST] <main>  INFO: Signiant TransferEngine build 10.6.0.59156
+[2019-12-09 09:45:41 EST] <main>  INFO: Using Signiant UDP transport
+[2019-12-09 09:45:41 EST] <main>  INFO: Transfer engine: 10.6.0.59156
+[2019-12-09 09:45:41 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:45:41 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is CONNECTING
+[2019-12-09 09:45:41 EST] <Transport Protocol Seeker>  INFO: Processing URL list: mxwan://sgr603.apple.com:44001/
+[2019-12-09 09:45:41 EST] <Connector: UDP sgr603.apple.com/17.110.248.103:44001>  INFO: Trying UDP sgr603.apple.com/17.110.248.103:44001...
+[2019-12-09 09:45:45 EST] <Transport Protocol Seeker>  INFO: Connected to UDP sgr603.apple.com/17.110.248.103:44001
+[2019-12-09 09:45:45 EST] <Transport Protocol>  INFO: Authenticating
+[2019-12-09 09:45:51 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is AWAITING_DATA_STREAMS
+[2019-12-09 09:45:51 EST] <Transport Protocol>  INFO: Setting up data streams
+[2019-12-09 09:45:52 EST] <Data Stream 0 (0)>  INFO: The Signiant transfer engine's status is CONNECTED
+[2019-12-09 09:45:52 EST] <Data Stream 0 (0)>  INFO: Connected using WAN accelerator
+[2019-12-09 09:45:52 EST] <File Progress Event Thread>  INFO:      File: 91c811c0-1ce4-466e-8189-3ea9838c7c466336853001415235565.txt 11/11, 100% completed
+[2019-12-09 09:45:53 EST] <Data Channel Controller> DBG-X: The status for the file, 91c811c0-1ce4-466e-8189-3ea9838c7c466336853001415235565.txt, is TRANSFERRED.
+[2019-12-09 09:45:53 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:45:54 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:45:54 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:45:54 EST] <Automatic reconnector> DEBUG: An error has occurred during the upload.
+[2019-12-09 09:45:54 EST] <Automatic reconnector> DEBUG: An exception has occurred: Scheduling automatic restart in 1 minute
+[2019-12-09 09:45:54 EST] <Automatic reconnector> DEBUG: Transfer warning: Scheduling automatic restart in 1 minute
+	at com.signiant.interactivetransfer.engine.TransferEngine$2.run(TransferEngine.java:593)
+
+[2019-12-09 09:45:54 EST] <Automatic reconnector> DEBUG: Received failed transfer notification; aborting
+[2019-12-09 09:45:54 EST] <Automatic reconnector>  INFO: Scheduling automatic restart in 1 minute
+[2019-12-09 09:45:54 EST] <main>  INFO: The Signiant transport is encountering difficulties with the upload. This may be caused by a firewall or network configuration preventing access.
+[2019-12-09 09:45:54 EST] <main>  INFO: Signiant TransferEngine build 10.6.0.59156
+[2019-12-09 09:45:54 EST] <main>  INFO: Using Signiant UDP transport
+[2019-12-09 09:45:54 EST] <main>  INFO: Transfer engine: 10.6.0.59156
+[2019-12-09 09:45:54 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:45:54 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is CONNECTING
+[2019-12-09 09:45:54 EST] <Transport Protocol Seeker>  INFO: Processing URL list: mxwan://sgr602.apple.com:44001/
+[2019-12-09 09:45:54 EST] <Connector: UDP sgr602.apple.com/17.110.248.102:44001>  INFO: Trying UDP sgr602.apple.com/17.110.248.102:44001...
+[2019-12-09 09:46:02 EST] <Transport Protocol Seeker>  INFO: Connected to UDP sgr602.apple.com/17.110.248.102:44001
+[2019-12-09 09:46:02 EST] <Transport Protocol>  INFO: Authenticating
+[2019-12-09 09:46:14 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is AWAITING_DATA_STREAMS
+[2019-12-09 09:46:14 EST] <Transport Protocol>  INFO: Setting up data streams
+[2019-12-09 09:46:15 EST] <Data Stream 0 (0)>  INFO: The Signiant transfer engine's status is CONNECTED
+[2019-12-09 09:46:15 EST] <Data Stream 0 (0)>  INFO: Connected using WAN accelerator
+[2019-12-09 09:46:15 EST] <File Progress Event Thread>  INFO:      File: 406dfb41-a66d-47d5-be6f-18d5fd7f06812694970168761287546.txt 11/11, 100% completed
+[2019-12-09 09:46:15 EST] <Data Channel Controller> DBG-X: The status for the file, 406dfb41-a66d-47d5-be6f-18d5fd7f06812694970168761287546.txt, is TRANSFERRED.
+[2019-12-09 09:46:15 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:46:16 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:46:16 EST] <main>  INFO: JSON:{"msg":{"phase":"Upload","count":3,"description":"Validating assets","index":3},"messageType":"VerifyProgress"}
+[2019-12-09 09:46:16 EST] <main> DEBUG: Using token file path /Users/krissie/Library/Caches/com.apple.amp.itmstransporter/UploadTokens/Kristinas-MBP.fios-router.home_N6XC9HC8PB_1490461270.itmsp.token
+[2019-12-09 09:46:16 EST] <main> DEBUG: Attempting exclusive file lock on token file
+[2019-12-09 09:46:16 EST] <main> DEBUG: Set token: b02d47f1-007c-43dc-9f68-4df337a382e7/1575902727116
+[2019-12-09 09:46:16 EST] <main> DBG-X: Memory: [JVM] 1131M free, 1183M total, 1820M max [System] (Physical) 33M free, 8192M total (Swap) 1404M free, 4096M total
+[2019-12-09 09:46:16 EST] <main>  INFO: JSON:{"msg":{"phase":"Upload","count":3,"description":"Validating assets","index":4},"messageType":"VerifyProgress"}
+[2019-12-09 09:46:16 EST] <main> DBG-X: Deflated 663 bytes to 488
+[2019-12-09 09:46:16 EST] <main> DBG-X: Using operation named: validateAssets
+[2019-12-09 09:46:16 EST] <main> DBG-X: Apple's web service operation input parameters:
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter BaseVersion = 1.13.0
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter CPUToken = b02d47f1-007c-43dc-9f68-4df337a382e7/1575902727116
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter Client = TransporterApp
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter ClientVersion = 1.1 (1165)
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter Files = [metadata.xml, HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter ItcProviderName = N6XC9HC8PB
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter MetadataChecksum = 97a3abdd55cfac4807188cf2931801af
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter MetadataCompressed = (suppressed)
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter MetadataInfo = {app_platform=osx, primary_bundle_identifier=, device_id=, bundle_identifier=com.birdbraintechnologies.HummingbirdFirmwareBurner, packageVersion=software5.4, apple_id=1490461270, asset_types=[product-archive], bundle_version=1.5, bundle_short_version_string=1.5.1}
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter PackageName = 1490461270.itmsp
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter PackageSize = 69043795
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter RequestUUID = 77c64ad3-4348-49a8-905b-711f4179ca87
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2019-12-09T09:46:16-05:00
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter StreamingInfoList = [file: 07598002-11c9-4963-a7e7-1cde1953b4078594701618693601538.swinfo.plist.gz, content-length: 105991, content-type: application/binary, MD5: 6951de9f8f0ba3c0a3a43855d861a060]
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter Transport = Signiant
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter TransporterArguments = -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter Version = 2.0.0
+[2019-12-09 09:46:16 EST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2019-12-09 09:46:16 EST] <main>  INFO: id = 20191209094616-499
+[2019-12-09 09:46:16 EST] <main>  INFO: iTMSTransporter Correlation Key: 07d8aef7-5ae6-461d-8952-8dac6c9256be-0001
+[2019-12-09 09:47:06 EST] <main> DBG-X: Apple's web service operation return value:
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter SessionExpiration = 2019-12-13T14:46:17.037Z
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter TransportUser = transporter
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter ResumeFlag = false
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter Success = true
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter FilesToUpload = [metadata.xml, HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter AssetsToDescribe = [{Role=source, Filename=HummingbirdFirmwareBurner.pkg, ShouldDescribeAsset=true, UTI=com.apple.pkg}]
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter CPUToken = fef97027-d2b4-49af-a526-a4f135e8580b/1575902826606
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter SigniantLoggingLevel = INFO
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter FileSizes = {HummingbirdFirmwareBurner.pkg=69043132}
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter TransportPort = 44001
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter EnableJWTForAllCalls = false
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter TransportHosts = [sgr803.apple.com]
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter MinimumFileSizeThresholdForCheckum = 104857600
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter SoftwareMediaDescriptionFormat = binary
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter SoftwareMediaDescriptionThresholds = {in-app-purchase-content={extensions=[pkg], size=100000000}, ccats={extensions=[pdf], size=100000000}, product-archive={extensions=[pkg], size=100000000}, developer-id-package={extensions=[zip, pkg, dmg], size=100000000}, bundle={extensions=[zip, ipa], size=100000000}, large-icon={extensions=[jpg, png, jpeg], size=100000000}}
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter StreamingSettings = {LogStreamingEnabled=true, MultipartUploadsEnabled=true, AssetDescriptionStreamingEnabled=false}
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter ProviderName = N6XC9HC8PB
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter Checksums = {HummingbirdFirmwareBurner.pkg=e442b458d46e605185a1b3172482c0d3}
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter TransportPath = sgr8_pod2/transporter/content/transporter/N6XC9HC8PB
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter NewPackageName = 1490461270-20191209064706-829.itmsp
+[2019-12-09 09:47:06 EST] <main> DBG-X:   parameter ProviderNameForToken = N6XC9HC8PB
+[2019-12-09 09:47:06 EST] <main> DBG-X: Existing token found, cleaning up
+[2019-12-09 09:47:06 EST] <main> DBG-X: Unlocking token at path /Users/krissie/Library/Caches/com.apple.amp.itmstransporter/UploadTokens/Kristinas-MBP.fios-router.home_N6XC9HC8PB_1490461270.itmsp.token
+[2019-12-09 09:47:06 EST] <main> DBG-X: Releasing token file lock
+[2019-12-09 09:47:06 EST] <main> DEBUG: Using token file path /Users/krissie/Library/Caches/com.apple.amp.itmstransporter/UploadTokens/Kristinas-MBP.fios-router.home_N6XC9HC8PB_1490461270.itmsp.token
+[2019-12-09 09:47:06 EST] <main> DEBUG: Attempting exclusive file lock on token file
+[2019-12-09 09:47:06 EST] <main> DEBUG: Set token: fef97027-d2b4-49af-a526-a4f135e8580b/1575902826606
+[2019-12-09 09:47:06 EST] <main>  INFO: The list of files requested for upload by Apple is: [metadata.xml, HummingbirdFirmwareBurner.pkg].  These are the files that will be uploaded.
+[2019-12-09 09:47:06 EST] <main>  INFO: Done performing authentication.
+[2019-12-09 09:47:06 EST] <main>  INFO: The asset replacement verification check is disabled.
+[2019-12-09 09:47:06 EST] <main>  INFO: Checking the file size of the files: [HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:47:06 EST] <main> DBG-X:  Checking the size of file: HummingbirdFirmwareBurner.pkg
+[2019-12-09 09:47:06 EST] <main>  INFO: Done checking the file sizes.
+[2019-12-09 09:47:06 EST] <main>  INFO: Checking the md5 checksum of the files: [HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:47:06 EST] <main> DBG-X:  Checking the MD5 checksum of file: HummingbirdFirmwareBurner.pkg
+[2019-12-09 09:47:06 EST] <main>  INFO: Done checking the md5 checksum.
+[2019-12-09 09:47:06 EST] <main>  INFO: Preparing to upload package 1490461270.itmsp ...
+[2019-12-09 09:47:06 EST] <main>  INFO: Determining which files should be uploaded ...
+[2019-12-09 09:47:06 EST] <main> DEBUG: Valid local files will be checked:
+[/var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp/metadata.xml, /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp/HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:47:06 EST] <main> DEBUG: Remote files uploaded:
+[]
+[2019-12-09 09:47:06 EST] <main> DBG-X: Examining working file: metadata.xml
+[2019-12-09 09:47:06 EST] <main> DEBUG: Adding file to be uploaded: metadata.xml
+[2019-12-09 09:47:06 EST] <main> DBG-X: Examining working file: HummingbirdFirmwareBurner.pkg
+[2019-12-09 09:47:06 EST] <main> DEBUG: Adding file to be uploaded: HummingbirdFirmwareBurner.pkg
+[2019-12-09 09:47:06 EST] <main>  INFO: Finished determining which files should be uploaded.
+[2019-12-09 09:47:06 EST] <main> DBG-X: ITMSPackage: files to be uploaded:
+[/var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp/metadata.xml, /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp/HummingbirdFirmwareBurner.pkg]
+[2019-12-09 09:47:06 EST] <main>  INFO: Starting to upload the package's files (1490461270.itmsp) ...
+[2019-12-09 09:47:06 EST] <main> DEBUG: Resetting sizes for progress logging
+[2019-12-09 09:47:06 EST] <main>  INFO: Computing total size of files to upload ...
+[2019-12-09 09:47:06 EST] <main> DBG-X:   adding file for % complete logging: metadata.xml , size: 663
+[2019-12-09 09:47:06 EST] <main> DBG-X:   adding file for % complete logging: HummingbirdFirmwareBurner.pkg , size: 69043132
+[2019-12-09 09:47:06 EST] <main> DEBUG: Setting total size of files for upload to: 69043795
+[2019-12-09 09:47:06 EST] <main>  INFO: Done computing total size of files to upload.
+[2019-12-09 09:47:06 EST] <main>  INFO: Signiant TransferEngine build 10.6.0.59156
+[2019-12-09 09:47:06 EST] <main>  INFO: Using Signiant UDP transport
+[2019-12-09 09:47:06 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:47:06 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is CONNECTING
+Dec 09, 2019 9:47:06 AM com.signiant.interactivetransfer.engine.TransferEngine addInfo
+INFO: Processing URL list: mxwan://sgr804.apple.com:44001/
+[2019-12-09 09:47:06 EST] <Transport Protocol Seeker>  INFO: Processing URL list: mxwan://sgr804.apple.com:44001/
+Dec 09, 2019 9:47:06 AM com.signiant.interactivetransfer.engine.TransferEngine addInfo
+INFO: Trying UDP sgr804.apple.com/17.133.233.104:44001...
+[2019-12-09 09:47:06 EST] <Connector: UDP sgr804.apple.com/17.133.233.104:44001>  INFO: Trying UDP sgr804.apple.com/17.133.233.104:44001...
+Dec 09, 2019 9:47:08 AM com.signiant.interactivetransfer.engine.TransferEngine addInfo
+INFO: Connected to UDP sgr804.apple.com/17.133.233.104:44001
+[2019-12-09 09:47:08 EST] <Transport Protocol Seeker>  INFO: Connected to UDP sgr804.apple.com/17.133.233.104:44001
+Dec 09, 2019 9:47:08 AM com.signiant.interactivetransfer.engine.TransferEngine addInfo
+INFO: Authenticating
+[2019-12-09 09:47:08 EST] <Transport Protocol>  INFO: Authenticating
+Dec 09, 2019 9:47:08 AM com.signiant.interactivetransfer.engine.ControlStream transfer
+INFO: Remote agent log base: sigitc-2019-12-09-09-47-06-914.553409-4
+[2019-12-09 09:47:09 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is AWAITING_DATA_STREAMS
+Dec 09, 2019 9:47:09 AM com.signiant.interactivetransfer.engine.TransferEngine addInfo
+INFO: Setting up data streams
+[2019-12-09 09:47:09 EST] <Transport Protocol>  INFO: Setting up data streams
+Dec 09, 2019 9:47:09 AM com.signiant.mobilize.ddsclient.connection.udp.UdpSession set_payload_size
+INFO: WAN Accelerated Data Channel using UDP packet size of 1472 bytes
+[2019-12-09 09:47:09 EST] <Data Stream 0 (0)>  INFO: The Signiant transfer engine's status is CONNECTED
+Dec 09, 2019 9:47:09 AM com.signiant.interactivetransfer.engine.TransferEngine addInfo
+INFO: Connected using WAN accelerator
+[2019-12-09 09:47:09 EST] <Data Stream 0 (0)>  INFO: Connected using WAN accelerator
+[2019-12-09 09:47:10 EST] <File Progress Event Thread>  INFO:      File: metadata.xml 663/663, 100% completed
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X: Memory: [JVM] 1000M free, 1183M total, 1820M max [System] (Physical) 22M free, 8192M total (Swap) 1468M free, 4096M total
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X: Using operation named: assignTransportPodToUpload
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X: Apple's web service operation input parameters:
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter Application = iTMSTransporter
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter BaseVersion = 1.13.0
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter CPUToken = fef97027-d2b4-49af-a526-a4f135e8580b/1575902826606
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter Client = TransporterApp
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter ClientVersion = 1.1 (1165)
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter ItcProviderName = N6XC9HC8PB
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter NewPackageName = 1490461270-20191209064706-829.itmsp
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter OSIdentifier = Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter Pod = Prineville Signiant 1
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2019-12-09T09:47:10-05:00
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 3.257375075
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter Transport = Signiant
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter TransporterArguments = -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter Version = 2.0.0
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter iTMSTransporterMode = upload
+[2019-12-09 09:47:10 EST] <File Progress Event Thread>  INFO: id = 20191209094710-018
+[2019-12-09 09:47:10 EST] <File Progress Event Thread>  INFO: iTMSTransporter Correlation Key: 07d8aef7-5ae6-461d-8952-8dac6c9256be-0001
+[2019-12-09 09:47:10 EST] <Data Channel Controller> DBG-X: The status for the file, metadata.xml, is TRANSFERRED.
+[2019-12-09 09:47:10 EST] <Data Channel Controller>  INFO: Package upload progress: 0% completed
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X: Apple's web service operation return value:
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter EnableJWTForAllCalls = false
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter SessionExpiration = 2019-12-13T14:47:10.774Z
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter Success = true
+[2019-12-09 09:47:10 EST] <File Progress Event Thread> DBG-X:   parameter StreamingSettings = {LogStreamingEnabled=true, MultipartUploadsEnabled=true, AssetDescriptionStreamingEnabled=false}
+[2019-12-09 09:47:12 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 1390400/69043132, 2% completed
+[2019-12-09 09:47:14 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 2765000/69043132, 4% completed
+[2019-12-09 09:47:14 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 3460200/69043132, 5% completed
+[2019-12-09 09:47:15 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 4155400/69043132, 6% completed
+[2019-12-09 09:47:16 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 4834800/69043132, 7% completed
+[2019-12-09 09:47:17 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 6225200/69043132, 9% completed
+[2019-12-09 09:47:18 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 6904600/69043132, 10% completed
+[2019-12-09 09:47:18 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 7599800/69043132, 11% completed
+[2019-12-09 09:47:19 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 8990200/69043132, 13% completed
+[2019-12-09 09:47:20 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 9669600/69043132, 14% completed
+[2019-12-09 09:47:20 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 10364800/69043132, 15% completed
+[2019-12-09 09:47:21 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 11060000/69043132, 16% completed
+[2019-12-09 09:47:21 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 11739400/69043132, 17% completed
+[2019-12-09 09:47:21 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 12434600/69043132, 18% completed
+[2019-12-09 09:47:22 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 13129800/69043132, 19% completed
+[2019-12-09 09:47:22 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 13809200/69043132, 20% completed
+[2019-12-09 09:47:22 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 14504400/69043132, 21% completed
+[2019-12-09 09:47:23 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 15199600/69043132, 22% completed
+[2019-12-09 09:47:23 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 15894800/69043132, 23% completed
+[2019-12-09 09:47:23 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 16574200/69043132, 24% completed
+[2019-12-09 09:47:23 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 17269400/69043132, 25% completed
+[2019-12-09 09:47:24 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 18644000/69043132, 27% completed
+[2019-12-09 09:47:24 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 19339200/69043132, 28% completed
+[2019-12-09 09:47:25 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 20713800/69043132, 30% completed
+[2019-12-09 09:47:25 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 21409000/69043132, 31% completed
+[2019-12-09 09:47:26 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 22799400/69043132, 33% completed
+[2019-12-09 09:47:26 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 23478800/69043132, 34% completed
+[2019-12-09 09:47:26 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 24869200/69043132, 36% completed
+[2019-12-09 09:47:27 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 25548600/69043132, 37% completed
+[2019-12-09 09:47:27 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 26939000/69043132, 39% completed
+[2019-12-09 09:47:28 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 27618400/69043132, 40% completed
+[2019-12-09 09:47:28 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 28313600/69043132, 41% completed
+[2019-12-09 09:47:28 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 29704000/69043132, 43% completed
+[2019-12-09 09:47:29 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 30383400/69043132, 44% completed
+[2019-12-09 09:47:29 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 31773800/69043132, 46% completed
+[2019-12-09 09:47:29 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 32453200/69043132, 47% completed
+[2019-12-09 09:47:30 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 33843600/69043132, 49% completed
+[2019-12-09 09:47:30 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 34523000/69043132, 50% completed
+[2019-12-09 09:47:31 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 35913400/69043132, 52% completed
+[2019-12-09 09:47:31 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 37288000/69043132, 54% completed
+[2019-12-09 09:47:31 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 37983200/69043132, 55% completed
+[2019-12-09 09:47:32 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 39357800/69043132, 57% completed
+[2019-12-09 09:47:32 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 40748200/69043132, 59% completed
+[2019-12-09 09:47:33 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 41427600/69043132, 60% completed
+[2019-12-09 09:47:33 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 42122800/69043132, 61% completed
+[2019-12-09 09:47:33 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 43497400/69043132, 63% completed
+[2019-12-09 09:47:34 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 44887800/69043132, 65% completed
+[2019-12-09 09:47:34 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 45583000/69043132, 66% completed
+[2019-12-09 09:47:34 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 46262400/69043132, 67% completed
+[2019-12-09 09:47:35 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 46957600/69043132, 68% completed
+[2019-12-09 09:47:35 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 48332200/69043132, 70% completed
+[2019-12-09 09:47:36 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 49722600/69043132, 72% completed
+[2019-12-09 09:47:36 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 50402000/69043132, 73% completed
+[2019-12-09 09:47:36 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 51097200/69043132, 74% completed
+[2019-12-09 09:47:37 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 52487600/69043132, 76% completed
+[2019-12-09 09:47:37 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 53862200/69043132, 78% completed
+[2019-12-09 09:47:38 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 54557400/69043132, 79% completed
+[2019-12-09 09:47:38 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 55236800/69043132, 80% completed
+[2019-12-09 09:47:38 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 55932000/69043132, 81% completed
+[2019-12-09 09:47:39 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 57306600/69043132, 83% completed
+[2019-12-09 09:47:39 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 58697000/69043132, 85% completed
+[2019-12-09 09:47:39 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 59392200/69043132, 86% completed
+[2019-12-09 09:47:40 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 60071600/69043132, 87% completed
+[2019-12-09 09:47:40 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 61462000/69043132, 89% completed
+[2019-12-09 09:47:41 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 62836600/69043132, 91% completed
+[2019-12-09 09:47:41 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 63531800/69043132, 92% completed
+[2019-12-09 09:47:41 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 64211200/69043132, 93% completed
+[2019-12-09 09:47:42 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 65601600/69043132, 95% completed
+[2019-12-09 09:47:43 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 66976200/69043132, 97% completed
+[2019-12-09 09:47:43 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 67671400/69043132, 98% completed
+[2019-12-09 09:47:43 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 68366600/69043132, 99% completed
+[2019-12-09 09:47:44 EST] <File Progress Event Thread>  INFO:      File: HummingbirdFirmwareBurner.pkg 69043132/69043132, 100% completed
+[2019-12-09 09:47:44 EST] <Data Channel Controller> DBG-X: The status for the file, HummingbirdFirmwareBurner.pkg, is TRANSFERRED.
+[2019-12-09 09:47:44 EST] <Data Channel Controller>  INFO: Package upload progress: 100% completed
+[2019-12-09 09:47:44 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+[2019-12-09 09:47:44 EST] <Transport Protocol>  INFO: The Signiant transfer engine's status is DISCONNECTED
+Dec 09, 2019 9:47:44 AM com.signiant.interactivetransfer.engine.TransferEngine doTransfer
+INFO: Transfer completed: SUCCESSFUL
+[2019-12-09 09:47:44 EST] <main>  INFO: The file, metadata.xml, was uploaded successfully.
+[2019-12-09 09:47:44 EST] <main>  INFO: The file, HummingbirdFirmwareBurner.pkg, was uploaded successfully.
+[2019-12-09 09:47:44 EST] <main>  INFO: The status for the upload is SUCCESSFUL.
+[2019-12-09 09:47:44 EST] <main>  INFO: The package's files (1490461270.itmsp) uploaded successfully.
+[2019-12-09 09:47:44 EST] <main>  INFO: Done performing upload.
+[2019-12-09 09:47:44 EST] <main> DBG-X: The transfer time for the package 1490461270.itmsp was 37874 milliseconds.
+[2019-12-09 09:47:44 EST] <main> DBG-X: Throughput information for 1490461270.itmsp: 0 minutes, 37.87 seconds, 65.85MB, 1.74MB/sec
+
+[2019-12-09 09:47:44 EST] <main> DBG-X: Memory: [JVM] 1154M free, 1207M total, 1820M max [System] (Physical) 28M free, 8192M total (Swap) 1468M free, 4096M total
+[2019-12-09 09:47:44 EST] <main> DBG-X: Using operation named: uploadDoneWithArguments
+[2019-12-09 09:47:44 EST] <main> DBG-X: Apple's web service operation input parameters:
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter BaseVersion = 1.13.0
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter CPUToken = fef97027-d2b4-49af-a526-a4f135e8580b/1575902826606
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter Client = TransporterApp
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter ClientChecksumInfo = [{CalculationTime=199, FileLastModified=1575902651000, Filename=HummingbirdFirmwareBurner.pkg, FileSize=69043132, CalculatedChecksum=e442b458d46e605185a1b3172482c0d3}]
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter ClientVersion = 1.1 (1165)
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter ExtraTransportLogFile = $MZCD_STREAMING_ROOT/590a92a9-e430-427f-9f04-c551b7db5fcd_67257984992674729sigitc-2019-12-09-09-47-06-914.553409.log.info
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter FileSizeInfo = {HummingbirdFirmwareBurner.pkg=69043132, metadata.xml=663}
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter ItcProviderName = N6XC9HC8PB
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter NewPackageName = 1490461270-20191209064706-829.itmsp
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter NumberBytesTransferred = 69043795
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.14.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter PackagePathWithoutBase = sgr8_pod2/transporter/content/transporter/N6XC9HC8PB
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter StatisticsArray = [{duration=0.146597432, method=clientApplication.start, count=1}, {duration=0.373187612, method=authenticateForTransportDiscovery, count=1}, {duration=0.499955097, method=validateMetadata, count=1}, {duration=13.230893014, method=SWINFO, count=1}, {duration=0.376842874, method=lookupTransportDiagnostic, count=1}, {duration=50.619856523, method=validateAssets, count=1}, {duration=4.10422E-4, method=createTransportPod, count=1}, {duration=3.257375075, method=upload-SigniantTransport, count=1}, {duration=0.230875618, method=assignTransportPodToUpload, count=1}, {duration=1.7910525798797607, method=SWINFO.codesign_allocate, count=59}, {duration=2.4820992946624756, method=SWINFO.dwarfdump, count=59}, {duration=5.395232915878296, method=SWINFO.file, count=334}, {duration=2.2450050115585327, method=SWINFO.lipo, count=59}, {duration=3.29381000995636, method=SWINFO.expand-package, count=1}]
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2019-12-09T09:47:44-05:00
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter StreamingInfoList = [file: 590a92a9-e430-427f-9f04-c551b7db5fcd_67257984992674729sigitc-2019-12-09-09-47-06-914.553409.log.info, content-length: 259, content-type: text/plain, MD5: 5c68bf67698dc1a7249581d162b0b7fe]
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter TransferTime = 37874
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter Transport = Signiant
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter TransportLogCompressed = (suppressed)
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter TransporterArguments = -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter Version = 2.0.0
+[2019-12-09 09:47:44 EST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2019-12-09 09:47:44 EST] <main>  INFO: id = 20191209094744-101
+[2019-12-09 09:47:44 EST] <main>  INFO: iTMSTransporter Correlation Key: 07d8aef7-5ae6-461d-8952-8dac6c9256be-0001
+[2019-12-09 09:47:45 EST] <main> DBG-X: Apple's web service operation return value:
+[2019-12-09 09:47:45 EST] <main> DBG-X:   parameter EnableJWTForAllCalls = false
+[2019-12-09 09:47:45 EST] <main> DBG-X:   parameter SessionInvalid = true
+[2019-12-09 09:47:45 EST] <main> DBG-X:   parameter Success = true
+[2019-12-09 09:47:45 EST] <main> DBG-X:   parameter StreamingSettings = {LogStreamingEnabled=true, MultipartUploadsEnabled=true, AssetDescriptionStreamingEnabled=false}
+[2019-12-09 09:47:45 EST] <main> DBG-X: JSON-START>>{"dev-id-results":{"upload_id":"77c64ad3-4348-49a8-905b-711f4179ca87"}}<<JSON-END
+[2019-12-09 09:47:45 EST] <main> DBG-X: Unlocking token at path /Users/krissie/Library/Caches/com.apple.amp.itmstransporter/UploadTokens/Kristinas-MBP.fios-router.home_N6XC9HC8PB_1490461270.itmsp.token
+[2019-12-09 09:47:45 EST] <main> DBG-X: Releasing token file lock
+[2019-12-09 09:47:45 EST] <main> DBG-X: Removing token at path /Users/krissie/Library/Caches/com.apple.amp.itmstransporter/UploadTokens/Kristinas-MBP.fios-router.home_N6XC9HC8PB_1490461270.itmsp.token
+[2019-12-09 09:47:45 EST] <main>  INFO: Done performing uploadDone notification to Apple.
+[2019-12-09 09:47:45 EST] <main>  INFO: Transporter's command line arguments are: -m upload -u kristinalauwers@gmail.com -vp json -sessionid @env:6A3F3A3F-E698-42B5-A448-FF60C5891390 -sharedsecret **hidden value** -itc_provider N6XC9HC8PB -f /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp -indicator true -v eXtreme -Dtransporter.client=TransporterApp -Dtransporter.client.version=1.1 (1165)
+[2019-12-09 09:47:45 EST] <main>  INFO: The package: /var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp has been successfully uploaded.
+[2019-12-09 09:47:45 EST] <main>  INFO: JSON:{"msg":{"phase":"Upload","count":3,"description":"Operation completed","index":3},"messageType":"VerifyProgress"}
+[2019-12-09 09:47:45 EST] <main> DBG-X: Returning 0
+
+
+
+
+Package Summary:
+ 
+1 packages were uploaded successfully:
+	/var/folders/qq/3wc8j_nn6l5dr9btjpgppn980000gn/T/AB2C385B-A69C-4DB8-975A-F937D7C0A013/1490461270.itmsp
