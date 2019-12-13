@@ -1,0 +1,429 @@
+{
+  "logFormatVersion": 1,
+  "jobId": "b7394236-d14b-476f-85ab-263ee26badb9",
+  "status": "Accepted",
+  "statusSummary": "Ready for distribution",
+  "statusCode": 0,
+  "archiveFilename": "HummingbirdFirmwareBurner.dmg",
+  "uploadDate": "2019-12-12T15:40:12Z",
+  "sha256": "b22dbbbdbc93599ef6064ceb91ce3287720b7211c33a25868e14e4b06d3c394c",
+  "ticketContents": [
+    {
+      "path": "HummingbirdFirmwareBurner.dmg",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "3b63ccfa7a6d85a7d8ce4858671f312976a3875d"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/MacOS/libpackager.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "c98779dfcf206d84e6d2d75622f890d5d0255a17",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "6a368f3766e42b84c99aa26a346377170376ea52",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "e1317fbbc0553b1cbc71b857ef6f14328d951b93",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/Java/avrdude_mac",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2391827d8b36174f9118bfb5cb8b89a612ec73e7",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/MacOS/Hummingbird Firmware Burner",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "e1317fbbc0553b1cbc71b857ef6f14328d951b93",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/MacOS/libpackager.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "c98779dfcf206d84e6d2d75622f890d5d0255a17",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "6a368f3766e42b84c99aa26a346377170376ea52",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/jspawnhelper",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "6f7d582ea6eb3c9020d8595055464c14e504b1df",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libawt.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "b2c61ae74824026187a373a3e3ee8b09603cd9b1",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libawt_lwawt.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "047ec940e733466bbc6c3cfb82c47823ac6f2c23",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libbci.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "b8fcf06b5260efe3c3c917e119f3e9b7d3e913a3",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libdcpr.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "81fed016efff8d11c5d24247dc4585e1ef70bd1a",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libdecora_sse.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "4b909ad1a889d5168f8b5bb16810d7d177be47e0",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libdt_socket.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "88f3d9ad1e88476a05e3b4e42220af5fed47e197",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libfontmanager.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "3b82d0dd89bb7968a1ba28a7e05a142b3f67a4f9",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libfxplugins.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "572c9c03d93198cd6bc426f901fe1708fb6ebe08",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libglass.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "c599def739d89404bd56cd55c04aa9ce204bc556",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libglib-lite.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2f0c10d72a5eed7e7248de5d2ff45e8a37644a20",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libgstreamer-lite.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "b1eedd9fe82850dcd98232d3b291a3fdd2ca3077",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libinstrument.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "e6cfdce165dbf6124962c484804b025d0e4c1026",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libj2gss.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "9663d551c1f3a7dc58baa4a9d18a73a4c6b588c8",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libj2pcsc.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "3d583b837a9b71458de1a8a95b34a5ca28c365bb",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjaas_unix.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "0c54aca21119095de46b13d1df12434d14b877f5",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjava.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "385456819c45c0289e5c85f9a92356833d5d6c07",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjavafx_font.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "14bf4c428bae0607b030e10078ac7ee1c545deb8",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjavafx_font_t2k.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "481fef568a9f1c67a5563b69049a15dda47ecb17",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjavafx_iio.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "0fb6b15a65dcb611fe1d51bbc949a0514f52163b",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjavajpeg.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "4c98352808f322676f34d2f1b3d91ef13acfa90c",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjawt.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "a59c77ca5ff4190fdfeb57d6b3ade595604c57c0",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjdwp.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "35676d6b1d580038216664087ca32bd3457a6dd1",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjfxmedia.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "02b0fd8f4d8d776c01c849feb8922f0dd8674dbd",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjfxmedia_avf.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "a907c66d83f311c190a806729aeba2ba849c865d",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjfxwebkit.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "059f476704601e87dd76ddad5477cb311c33482c",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjimage.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "0c5b958525d64aee1c485744c25ef01834f5e8b7",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjsig.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "da7fbd148089ff07f4d80e7d527a839a1aacf9d5",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libjsound.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "508c934756ccc5b1e35d376102f81e201c611d10",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libkcms.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "19879a1ebb17d03f67cad6d957709abd5a6693ff",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/liblcms.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "03da2b8a6e39317438b73eddb460a8c2d1fbfd79",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libmanagement.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "f6f1076d1d8a456743663978a6baf5f523819137",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libmanagement_agent.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "36347d7f4b8743bf2b03d25e62dbebf50fb1e252",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libmanagement_ext.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "cf61762e794948bab202f6f56bb6258bf22f01aa",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libmlib_image.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "c6316bc6725493382a692c011d9a7d7fccccbfe4",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libnet.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "b98ddb3f04f69d257dae751d8109177f97cf284c",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libnio.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "afb5ed253d02a8c2b6583ee0662f5dcd5da8372a",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libosx.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "8bbcc0295181ea046ae4a41428540e95ad841abd",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libosxapp.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "cad58a50d03402d879928383177b78a07c6fae72",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libosxkrb5.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "5f27c5081bf8a92144d4911997a68962dac9cc2e",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libosxsecurity.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "68c58a1c8855d5ab5e20fc6bc28f663e6fd68cc4",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libosxui.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "00ce41fa465c8cc8764141c461f1b4ceca525766",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libprefs.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "e49cf0d22726e7782c06bd744e32f40472a4974f",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libprism_common.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "c4d9e5a2c299e58247e0f9862fc4dee8b66049c3",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libprism_es2.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "0f9a9427ed4a3dbfc863178cd8865a65712c756a",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libprism_sw.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "956a80351e5baa20448cc447ccf2ad855af10b7f",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/librmi.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2e93691c8222b464a068d103bb1676451689422d",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libsplashscreen.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "5814874e200eec4278673ecb79d82d528cb6204b",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libsunec.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "070cb783e25cce505f9f77f112951da70158e095",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libt2k.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "fc7227399b6ab8d1c04cdf70e32a2c2e64caf303",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libverify.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "6d26a512fefc2746e2bbb68555086eb889e0a385",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/libzip.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "3bdce4b8cbe4e8f41bb19abcb87cfbdff495040a",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/jli/libjli.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "636f672ab6414c85d8fe030d09b5a77f44d32e2a",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/server/libjsig.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "da7fbd148089ff07f4d80e7d527a839a1aacf9d5",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/server/libjvm.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "a1dcdfd6f6cd2df721fb9ab0a370914ed6be230c",
+      "arch": "x86_64"
+    },
+    {
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/MacOS/libjli.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "6a368f3766e42b84c99aa26a346377170376ea52",
+      "arch": "x86_64"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": null,
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/security/public_suffix_list.dat",
+      "message": "b\"ditto: tdk: No such file or directory\\nditto: Couldn't read pkzip signature.\\n\"",
+      "docUrl": null,
+      "architecture": null
+    },
+    {
+      "severity": "warning",
+      "code": null,
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/Java/avrdude_mac",
+      "message": "The executable does not have the hardened runtime enabled.",
+      "docUrl": null,
+      "architecture": "x86_64"
+    },
+    {
+      "severity": "warning",
+      "code": null,
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/MacOS/Hummingbird Firmware Burner",
+      "message": "The executable does not have the hardened runtime enabled.",
+      "docUrl": null,
+      "architecture": "x86_64"
+    },
+    {
+      "severity": "warning",
+      "code": null,
+      "path": "HummingbirdFirmwareBurner.dmg/Hummingbird Firmware Burner.app/Contents/PlugIns/Java.runtime/Contents/Home/lib/jspawnhelper",
+      "message": "The executable does not have the hardened runtime enabled.",
+      "docUrl": null,
+      "architecture": "x86_64"
+    }
+  ]
+}
