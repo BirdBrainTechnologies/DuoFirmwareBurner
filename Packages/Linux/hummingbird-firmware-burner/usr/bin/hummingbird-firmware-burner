@@ -1,2 +1,3 @@
 #!/bin/bash
+cd /usr/share/hummingbird-firmware-burner
 java -jar ./HummingbirdFirmwareBurner.jar

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Hummingbird Firmware Burner
+GenericName=Firmware Uploader
+Comment= Switch firmware on your Hummingbird
+Exec=hummingbird-firmware-burner
+Icon=/usr/share/HummingbirdFirmwareBurner/hummingbird.png
+Terminal=false
+Type=Application
+Categories=Application;Development;
+StartupNotify = False

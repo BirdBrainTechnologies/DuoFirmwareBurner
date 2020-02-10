@@ -219,18 +219,19 @@ public class HummingbirdFirmwareBurner extends JFrame{
                                 try {
                                     String avrdude = "avrdude";
                                     String avrconf ="avrdude.conf";
-                                    if(SystemUtils.IS_OS_LINUX){
+                                    /*if(SystemUtils.IS_OS_LINUX){
                                         final String arch = System.getProperty("sun.arch.data.model","");
                                         if(arch.equals("64"))
                                             avrdude = "./avrdude64";
                                         else
                                             avrdude = "./avrdude";
                                     }
-                                    else if(SystemUtils.IS_OS_MAC_OSX){
+                                    else */if(SystemUtils.IS_OS_MAC_OSX){
                                         avrdude = "./avrdude_mac";
                                         avrconf = "./avrdude.conf";
                                     }
                                     String[] command={avrdude, "-p", "atmega32u4", "-P", comport, "-c", "avr109", "-C", avrconf, "-b", "9600", "-U", "flash:w:" + firmwareFile+":i"};
+
                                     //run avrdude
                                     p = Runtime.getRuntime().exec(command);
                                     BufferedReader reader = new BufferedReader(new InputStreamReader(p.getErrorStream()));

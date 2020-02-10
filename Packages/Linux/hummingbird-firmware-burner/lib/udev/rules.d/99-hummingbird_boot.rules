@@ -1,0 +1,1 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2354", ATTRS{idProduct}=="2444", MODE="0660", GROUP="plugdev"

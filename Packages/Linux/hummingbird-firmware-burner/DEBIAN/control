@@ -1,0 +1,11 @@
+Package: hummingbird-firmware-burner
+Version: 1.2
+Section: devel
+Priority: optional
+Architecture: all
+Depends: default-jre, avrdude
+Maintainer: Tom Lauwers <tlauwers@birdbraintechnologies.com>
+Homepage: http://www.birdbraintechnologies.com
+Installed-Size: 2500
+Description: A simple application to upload firmware to the BirdBrain Hummingbird controller
+ The Hummingbird Firmware Burner calls the avrdude utility to upload firmware to the Hummingbird Duo controller. It allows the user to change the firmware between several different modes - Arduino, USB-tethered, and Bluetooth-ready. It also allows the user to upload custom compiled firmware.
