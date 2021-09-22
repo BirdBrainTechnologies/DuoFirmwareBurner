@@ -3,3 +3,5 @@
 *.app
 *.dmg
 *.pkg
+Packages/Windows/BIRDBRAIN.pfx
+Packages/Windows/command.txt
